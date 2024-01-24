@@ -9,7 +9,7 @@ public class TestController {
     @GetMapping("/healthCheck")
     public String healthCheck()
     {
-        System.out.println("Health is Super");
+        System.out.println("Health is Super Duper Hit");
         return "<h1><center>I'm up and running</center></h1>";
     }
 }
